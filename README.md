@@ -1,4 +1,4 @@
-#NGS Sequencing DNA Analysis Project
+NGS Sequencing DNA Analysis Project
 
 *Background and purpose of project*:
 This Python program analyses DNA sequencing reads by validating, summarising and identifying mismatches against a reference sequence. It investigates whether treatment is associated with increased mutation frequency and whether particular nucleotide positions show significant differences between treatment and control samples.

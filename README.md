@@ -1,13 +1,13 @@
 NGS Sequencing DNA Analysis Project
 
 *Background and purpose of project*:
-This Python program analyses DNA sequencing reads by validating, summarising and identifying mismatches against a reference sequence. It investigates whether treatment is associated with increased mutation frequency and whether particular nucleotide positions show significant differences between treatment and control samples.
+This Python program analyses DNA sequencing reads by validating, summarising and identifying mismatches against a reference sequence. It investigates whether treatment with genotoxic agent is associated with increased mutation frequency and whether particular nucleotide positions show significant differences between treatment and control samples.
 
 *Instructions on how to run*:
 Open the Notebook in Google Colab. Upload reads.csv and reference.txt, then run the notebook cells sequentially from the beginning to execute the analysis and display the results.
 
 *Inputs and Outputs*:
-This program requires a CSV file containing read identifiers, sample labels, group data and DNA sequences, alongside a reference DNA sequence stored in a text file. It returns validated reads, mutation locations and nucleotide substitutions, followed by sample-level summaries. It also identified the three most frequent mismatch positions across both groups and compares their frequencies using Welch's two-sided t-test.
+This program requires a CSV file containing read identifiers, sample labels, group data and DNA sequences, alongside a reference DNA sequence stored in a text file. It returns validated reads, mutation locations and nucleotide substitutions, followed by sample summaries. It also identifies the three most frequent mismatch positions across both groups and compares their frequencies using Welch's two-sided t-test.
 
 *Method*:
 The analysis is divided into separate functions each with their own purpose, making testing easier and code simpler to maintain.
